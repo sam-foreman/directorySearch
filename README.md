@@ -4,11 +4,7 @@ Recursive directory searching in C
                
 /* -----------------------------------------  R E A D M E ------------------------------------------- */
 
-Created for CS410 by Sam Foreman. This program takes in a path, a string, and optional flags, and
-recursively searches through the directory and prints out all lines that contain the string.
 
-The Makefile allows for compiling and cleaning the files. To run the program, enter "make" in the 
-command line to compile, and ./finds to run. See below for the proper formatting of arguments.
 
 NOTE: 
       - check_input() included in main.c is based on the "GetOpt Long Option Example" as
@@ -20,8 +16,7 @@ NOTE:
 Included in the directory are the following files:
 	 - Makefile:
 	   - contains shell commands for compiling and running finds & my_printf
-
-
+	   
 	 - main.c:
 	   - contains functions for getting user input, recursively traversing through a directory,
 	     and searching the files within for a user-inputted string. also times the output of
